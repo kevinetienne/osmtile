@@ -1,0 +1,9 @@
+osmtile
+-------
+
+Simple usage example
+
+    m = DownloadMap("my_map", os.getcwd())
+    m.set_center(51.752155300000005, -1.2582349576721181 ,15)
+    m.build_url()
+    m.download()
